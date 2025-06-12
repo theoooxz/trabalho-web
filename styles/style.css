@@ -1,0 +1,7 @@
+body{
+    background-image: url(imagens/fundoroxo.png)
+}
+#menu{
+    text-align: center;
+    display: flex;
+}
