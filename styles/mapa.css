@@ -1,0 +1,27 @@
+#menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+#menu a, #menu p {
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+    text-align: center;
+}
+
+.obrigado span {
+    font-weight: normal;
+    font-size: 12px;
+}
+
+.pagina {
+    background-color: #c678f3;
+    padding: 5px 15px;
+    border-radius: 10px;
+}

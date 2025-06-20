@@ -1,7 +1,61 @@
-body{
-    background-image: url(imagens/fundoroxo.png)
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #000000, #5a39a8);
+    color: white;
 }
-#menu{
-    text-align: center;
+
+#menu {
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+#menu a, #menu p {
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+    text-align: center;
+}
+
+.obrigado span {
+    font-weight: normal;
+    font-size: 12px;
+}
+
+.pagina {
+    background-color: #c678f3;
+    padding: 5px 15px;
+    border-radius: 10px;
+}
+
+.conteudo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: calc(100vh - 100px);
+    flex-direction: column;
+}
+
+.conteudo h1 {
+    font-size: 3em;
+    font-weight: bold;
+    line-height: 1.2em;
+    margin: 0;
+}
+
+.conteudo h2 {
+    font-weight: normal;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.link {
+    margin-top: 40px;
+    font-size: 14px;
 }
