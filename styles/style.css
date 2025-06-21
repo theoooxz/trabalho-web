@@ -55,12 +55,11 @@ body {
     margin-bottom: 20px;
 }
 
-.link {
-    margin-top: 40px;
-    font-size: 14px;
-}
-
 #marcado{
     font-weight: bold;
     text-decoration: underline;
+}
+
+#texto{
+    width: 700px
 }
