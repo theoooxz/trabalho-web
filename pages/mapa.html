@@ -1,17 +1,36 @@
-<html lang="en">
+<!DOCTYPE html>
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Línguas e Mapa</title>
-    <link rel="stylesheet" href="styles/mapa.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Línguas e Mapa</title>
+  <link rel="stylesheet" href="../styles/mapa.css" />
+  <script src="../scripts/script.js" defer></script>
 </head>
 <body>
-    <nav id="menu">
-        <p class="obrigado">Obrigado<br><span>pelo apoio</span></p>
-        <a href="index.html">Menu</a>
-        <a href="pages/mapa.html">Línguas e<br>Mapa</a>
-        <a href="pages/sobre.html">Sobre</a>
-        <p class="pagina">Página 1</p>
-    </nav>
+  <nav id="menu">
+    <p class="obrigado">Obrigado<br><span>pelo apoio</span></p>
+    <a href="../index.html">Menu</a>
+    <a id="marcado" href="mapa.html">Línguas e Mapa</a>
+    <a href="sobre.html">Sobre</a>
+    <p class="pagina">Página 2</p>
+  </nav>
+
+    <div class="conteudo">
+  <article>
+    <h1>MAPA</h1>
+    <img id="mapa" src="../imagens/mapa.png" alt="Mapa Línguas Indígenas">
+  </article>
+
+    <aside>
+    <h1>Registro de Línguas</h1>
+    <input type="text" id="nova-lingua" placeholder="Digite uma Língua" />
+    <button id="adicionar-lingua">Adicionar</button>
+    <ul id="lista-linguas">
+      <!-- Línguas serão renderizadas aqui -->
+    </ul>
+    </aside>
+    </div>
+
 </body>
 </html>

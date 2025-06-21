@@ -2,7 +2,12 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
     background: linear-gradient(to bottom, #000000, #5a39a8);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
     color: white;
+
 }
 
 #menu {
@@ -33,34 +38,19 @@ body {
     border-radius: 10px;
 }
 
-.conteudo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    height: calc(100vh - 100px);
-    flex-direction: column;
-}
-
-.conteudo h1 {
-    font-size: 3em;
-    font-weight: bold;
-    line-height: 1.2em;
-    margin: 0;
-}
-
-.conteudo h2 {
-    font-weight: normal;
-    font-size: 1.5em;
-    margin-bottom: 20px;
-}
-
-.link {
-    margin-top: 40px;
-    font-size: 14px;
-}
-
 #marcado{
     font-weight: bold;
     text-decoration: underline;
+}
+
+h2{
+    font-size: clamp(40px, 5vw, 60px);    
+    margin-left: 40px;
+}
+
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: clamp(40px, 5vw, 60px);    
+    margin-left: 40px;
+    margin-top: 130px;
 }

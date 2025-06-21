@@ -1,3 +1,10 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+}
+
 #menu {
     display: flex;
     justify-content: space-around;
@@ -25,3 +32,102 @@
     padding: 5px 15px;
     border-radius: 10px;
 }
+
+#marcado{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+article{
+    justify-content: center;
+    text-align: center;
+    width: 450px;
+    height: 450px;
+}
+
+h1{
+    margin-bottom: 20px;
+    font-size: 70px;
+}
+
+#mapa{
+    width: 450px;
+    height: 500px;
+}
+
+.conteudo {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+  gap: 60px;
+}
+
+aside {
+  flex: 1;
+  max-width: 400px;
+  background: linear-gradient(to bottom right, #8a2be2, #000000);
+  padding: 20px;
+  border-radius: 20px;
+  margin-top: 100px;
+}
+
+#nova-lingua {
+    width: 70%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  #adicionar-lingua {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #00b894;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+
+  #adicionar-lingua:hover {
+    background-color: #019875;
+  }
+
+  ul#lista-linguas {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+
+  ul#lista-linguas li {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  ul#lista-linguas h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #444;
+  }
+
+  ul#lista-linguas button {
+    background-color: #ff4757;
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+
+  ul#lista-linguas button:hover {
+    background-color: #e84118;
+  }
